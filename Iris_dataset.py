@@ -42,8 +42,8 @@ print("Valor de la pendiente:", modelrl.coef_)
 print("Valor de la intersección:", modelrl.intercept_)
 
 # Clasificación 
-sample = [[5.1, 3.5, 1.4, 0.2]]
-pred = np.rint(modelrl.predict(sample)).astype(int)[0]
+prueba = [[5.1, 3.5, 1.4, 0.2]]
+pred = np.rint(modelrl.predict(prueba)).astype(int)[0]
 pred = np.clip(pred, 0, 2)
 print("La muestra pertenece a:", iris.target_names[pred])
 
