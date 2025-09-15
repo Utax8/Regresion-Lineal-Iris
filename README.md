@@ -24,7 +24,7 @@ El modelo predice la clase de:
 1. Los datos de prueba (`X_test`).  
 2. Nuevas muestras introducidas manualmente.  
 
-Ejemplo:  
+Ejemplo de planta setosa:  
 ```python
 prueba = [[5.1, 3.5, 1.4, 0.2]]
 pred = model.predict(prueba)
