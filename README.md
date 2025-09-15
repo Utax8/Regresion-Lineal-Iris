@@ -26,5 +26,5 @@ El modelo predice la clase de:
 
 Ejemplo:  
 ```python
-sample = [[5.1, 3.5, 1.4, 0.2]]
-pred = model.predict(sample)
+prueba = [[5.1, 3.5, 1.4, 0.2]]
+pred = model.predict(prueba)
