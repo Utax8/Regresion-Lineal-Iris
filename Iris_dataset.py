@@ -45,7 +45,7 @@ print("Valor de la intersección:", modelrl.intercept_)
 prueba = [[5.1, 3.5, 1.4, 0.2]]
 pred = np.rint(modelrl.predict(prueba)).astype(int)[0]
 pred = np.clip(pred, 0, 2)
-print("La muestra pertenece a:", iris.target_names[pred])
+print("La muestra pertenece a la especie", iris.target_names[pred])
 
 
 # Mostrar los datos Clasificación en dataframe
